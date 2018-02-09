@@ -1,7 +1,7 @@
 <!doctype html>
 <header>
 	<title>Welcome to Nnamd's World</title>
-	<link rel="stylesheet" href="https://rfollman.github.io/main-php.css">
+	<link rel="stylesheet" href="stylesheet.css">
 </header>
 <html>
 	<body>

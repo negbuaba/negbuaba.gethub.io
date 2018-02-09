@@ -1,0 +1,18 @@
+<html>
+<head>
+<style>
+Body {
+	background-color: ooooFF; 
+}
+h1 {
+	color: blue; 
+	Text-align: right;
+}
+p {
+	font-family: verdana; 
+	font-size:40px; 
+}
+</style>
+</head>
+</body>
+</html>
