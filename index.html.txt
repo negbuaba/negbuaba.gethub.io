@@ -7,7 +7,7 @@
 	<body>
 		
 		<h1>Information World</h1>
-		<p>Took me a little time to get this but im finnally rolling.</p>
+		<p>Took me a little time to get this but i am finnally rolling.</p>
 		<p>Members of my team inludes:</p>
 		<ul>
 			<li>Ibrahim Hashme</li>
