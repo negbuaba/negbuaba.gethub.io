@@ -1,0 +1,67 @@
+
+<html> 
+	<head>
+		<title> First Five Songs  </title>
+			<link rel="stylesheet" href="stylesheet.css">
+			<script>
+			
+			var waka = [
+			{
+			"Name": " One callw away", 
+			 "Artist": "Maleek Berry",
+			 "Genre": "R&B"
+			}, 
+			{
+			"Name": "Jehovah", 
+			"Artist": "M I Abaga", 
+			"Genre": "Blues"
+			}, 
+			{
+			"Name": "Trillions", 
+			"Artist": "Ice Prince", 
+			"Genre": "Rap" 
+			}, 
+			{
+			"Name": " Hallusinating", 
+			"Artist": "Future",
+			"Genre": "Hip-Hop" 
+			}, 
+			{
+			"Name": "Slow Down  ", 
+			"Artist": "R2Bees",
+			"Genre" :"HIP-Hop"
+			}
+		];
+			
+			</script>
+			
+			
+			</head>
+			<body>
+  <h1> My First Five Songs </h1>
+
+  <table border=1 class="left">
+	<thead>
+      <tr>
+		    <th>Name</th><th>Artist</th><th>Genre</th>
+      </tr>
+  </thead> 
+  <tbody id="Topsong">
+
+  </tbody>
+  </table>
+
+<script>
+
+  var text = " "
+  for (var m in waka) {
+		if (waka.hasOwnProperty(m)) {
+        var obj = waka[m];
+				text += "<tr><td>" + obj['Name'] + "</td><td>" + obj['Artist'] + "</td><td>" + obj['Genre'] + "</td></tr>"
+		}
+	}
+  document.getElementById("Topsong").innerHTML = text;
+</script>	
+<p> Nnamdi's Territory: <a href="http://negbuaba.github.io/">Link Here</a></p>
+</body>
+</html>
